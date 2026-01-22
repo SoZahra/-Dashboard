@@ -1,0 +1,81 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #d6d6d6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #dadbdb;
+}
+
+/* Unification du formulaire */
+.form-container {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+input, button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 1px solid #dfe6e9;
+  font-size: 14px;
+  height: 42px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #a7a7a7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+button:hover { background-color: #585858; }
+
+/* Table plus propre */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgb(156, 156, 156);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #f1f2f6;
+}
+
+th { background-color: #cfcfcf; font-weight: 600; color: #ffffff; text-transform: uppercase; font-size: 12px; }
+
+/* Badge de statut */
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.PENDING { background: #fff3cd; color: #856404; }
+.PROCESSED { background: #d4edda; color: #155724; }
+.ARCHIVED { background: #e2e3e5; color: #383d41; }
+
